@@ -8,6 +8,7 @@ Simple REST API built with Node.js and Express, created for the DevOps Session 1
 |--------|-----------|-----------------------------------|
 | GET    | `/`       | Returns a welcome message         |
 | GET    | `/health` | Returns service status and uptime |
+| GET    | `/about`  | Returns project information       |
 
 ## Requirements
 

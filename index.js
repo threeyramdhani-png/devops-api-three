@@ -20,6 +20,15 @@ app.get('/health', (req, res) => {
   });
 });
 
+// About endpoint
+app.get('/about', (req, res) => {
+  res.json({
+    name: 'devops-api-three',
+    description: 'Simple REST API built with Node.js and Express',
+    author: 'Three Ramdhani'
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
